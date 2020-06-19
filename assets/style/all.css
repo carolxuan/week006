@@ -11994,7 +11994,6 @@ img {
 }
 
 .banner {
-  z-index: -1;
   margin-top: -93px;
   height: 800px;
 }
@@ -12031,12 +12030,12 @@ img {
   }
 }
 
-.banner button {
+.banner a {
   padding: 18px 45px;
 }
 
 @media (max-width: 767px) {
-  .banner button {
+  .banner a {
     width: 100%;
   }
 }
